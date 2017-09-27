@@ -1,4 +1,5 @@
 <?php
+    echo "This is Version 0.4 \n";
     $pass = "test";
     $salt = "database";
     echo $pass. "\n";
@@ -19,5 +20,7 @@
     } else {
            echo 'Invalid password.';
     }
+    
+    echo "\n". phpversion();
 
 ?>
